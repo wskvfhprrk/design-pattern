@@ -9,3 +9,4 @@
 * [接口隔离原则](src/main/java/com/hejz/model/interfacesegation/接口隔离原则.md)
 * [迪米特原则](src/main/java/com/hejz/model/demeter/迪米特原则.md)
 * [里氏替换原则](src/main/java/com/hejz/model/liskovSubstitution/里氏替换原则.md)
+* [合成（聚合）复用原则 ](src/main/java/com/hejz/model/compositionaggergation/合成（聚合复用）原则.md)
