@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class Child extends Base {
 
-    public HashMap create(){
+    public HashMap create() {
 
         System.out.println("调子类方法");
         return null;

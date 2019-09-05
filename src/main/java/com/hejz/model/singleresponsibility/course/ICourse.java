@@ -6,8 +6,11 @@ package com.hejz.model.singleresponsibility.course;
 public interface ICourse {
     //课程内容——职责一
     String getCourseName();
+
     Byte[] getCourseVideo();
+
     //课程管理——职责二
     void studyCourse();
+
     void refundCourse();
 }

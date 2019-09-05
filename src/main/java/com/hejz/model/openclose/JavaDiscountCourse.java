@@ -8,12 +8,12 @@ public class JavaDiscountCourse extends JavaCourse {
         super(id, name, price);
     }
 
-    public Double getOriginPrice(){
+    public Double getOriginPrice() {
         return super.getPrice();
     }
 
     @Override
     public Double getPrice() {
-        return super.getPrice()*0.8;
+        return super.getPrice() * 0.8;
     }
 }

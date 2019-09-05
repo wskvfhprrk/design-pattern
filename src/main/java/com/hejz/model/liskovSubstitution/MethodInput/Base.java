@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class Base {
 
-    public void create(HashMap hashMap){
+    public void create(HashMap hashMap) {
         System.out.println("调用父类方法");
     }
 }

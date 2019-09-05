@@ -5,7 +5,7 @@ package com.hejz.model.liskovSubstitution;
  * @Description: 正方形
  * @Date: 2019/6/4 8:46
  */
-public class Square implements Quadrangle{
+public class Square implements Quadrangle {
     private long sideLength;
 
     @Override

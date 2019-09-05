@@ -6,7 +6,8 @@ package com.hejz.model.dependenceinversion;
 public class Geely {
     private ICourse course;
 
-    public Geely(){}
+    public Geely() {
+    }
 
 //    public Geely(ICourse course) {
 //        this.course = course;

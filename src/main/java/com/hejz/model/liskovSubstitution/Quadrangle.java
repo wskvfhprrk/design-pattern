@@ -7,5 +7,6 @@ package com.hejz.model.liskovSubstitution;
  */
 public interface Quadrangle {
     long getWidth();
+
     long getLength();
 }

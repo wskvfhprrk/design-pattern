@@ -10,9 +10,9 @@ public class Test {
 //        bird.mainMoveModel("驼鸟");
 //        //如果再加入其它的鸟类就不行了
 
-        FlyBird flyBird=new FlyBird();
+        FlyBird flyBird = new FlyBird();
         flyBird.mainMoveModel("大雁");
-        WalkBird walkBird=new WalkBird();
+        WalkBird walkBird = new WalkBird();
         walkBird.mainMoveModel("驼鸟");
         walkBird.mainMoveModel("企鹅");
     }

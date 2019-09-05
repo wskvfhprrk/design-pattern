@@ -7,12 +7,12 @@ package com.hejz.model.liskovSubstitution;
  */
 public class Test {
 
-    public static void resize(Rectangle rectangle){
-        while (rectangle.getWidth()<=rectangle.getLength()){
-            rectangle.setWidth(rectangle.getWidth()+1);
-            System.out.println(rectangle.getWidth()+","+rectangle.getLength());
+    public static void resize(Rectangle rectangle) {
+        while (rectangle.getWidth() <= rectangle.getLength()) {
+            rectangle.setWidth(rectangle.getWidth() + 1);
+            System.out.println(rectangle.getWidth() + "," + rectangle.getLength());
         }
-        System.out.println("resize方法结束："+rectangle.getWidth()+","+rectangle.getLength());
+        System.out.println("resize方法结束：" + rectangle.getWidth() + "," + rectangle.getLength());
     }
 
     public static void main(String[] args) {

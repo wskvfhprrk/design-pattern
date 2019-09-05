@@ -6,6 +6,8 @@ package com.hejz.model.interfacesegation;
  **/
 public interface IAnimalAction {
     void eat();
+
     void fly();
+
     void swim();
 }

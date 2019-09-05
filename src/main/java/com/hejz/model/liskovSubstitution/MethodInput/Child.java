@@ -15,7 +15,7 @@ public class Child extends Base {
 //        super.create(hashMap);
 //    }
 
-    public void create(Map map){
+    public void create(Map map) {
         System.out.println("子类方法");
     }
 }

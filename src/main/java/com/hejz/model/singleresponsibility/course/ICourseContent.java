@@ -5,5 +5,6 @@ package com.hejz.model.singleresponsibility.course;
  **/
 public interface ICourseContent {
     String getCourseName();
+
     Byte[] getCourseVideo();
 }

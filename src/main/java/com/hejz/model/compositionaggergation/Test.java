@@ -7,7 +7,7 @@ package com.hejz.model.compositionaggergation;
  */
 public class Test {
     public static void main(String[] args) {
-        ProductionDao productionDao=new ProductionDao();
+        ProductionDao productionDao = new ProductionDao();
         productionDao.setDbConnection(new SybaseConnection());
         productionDao.addProcuction();
     }

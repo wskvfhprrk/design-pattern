@@ -10,10 +10,10 @@ import java.util.Map;
  */
 public class Test {
     public static void main(String[] args) {
-        Child child=new Child();
-        HashMap hashMap=new HashMap();
+        Child child = new Child();
+        HashMap hashMap = new HashMap();
         child.create(hashMap);
-        Map map=new HashMap();
+        Map map = new HashMap();
         child.create(map);
     }
 }
